@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+    Hello Camper!
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+    - The freeCodeCamp Team
+    -->
+    <script  src="js/index.js"></script>
+
+    <!-- Title -->
+    <div id="intro">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </div>
+
+    <div class="main">
+      
+      <form id="survey-form">
+        <div class="formulary">
+          <label id="name-label" >Name</label>
+          <input type="text" placeholder="Enter your name" id="name" class="textbox" required>
+        </div>
+        <div class="formulary">
+          <label id="email-label">Email</label>
+          <input id="email" class="textbox" type="email" required placeholder="Enter your email" pattern=".+@+"/>
+        </div>
+        <div class="formulary">
+          <label id="number-label" class="textbox">Age (optional)</label>
+          <input type="number" id="number" class="textbox" placeholder="Age" min = "18" max = "100" required>
+        </div>
+        <div>
+          <select name="dropdown" id="dropdown" class="textbox">
+            <option selected disabled value=""> Select current role</option>
+            <option>Student</option>
+            <option>Full time job</option>
+            <option>Full time learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="formulary" id="survey-form">
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <div>
+            <label><input type="radio" id="check1" class="checkbox" name="attribute" value="Definitely">Definitely</label>
+          </div>
+          <div>
+            <label><input type="radio" id="check2" class="checkbox" name="attribute" value="Maybe">Maybe</label>
+          </div>
+          <div>
+            <label><input type="radio" id="check3" class="checkbox" name="attribute" value="Not sure">Not sure</label>
+          </div>
+
+        </div>
+        <div class="formulary">
+
+        </div>
+        <div class="formulary">
+
+          <p>What would you like to see improved? (Check all that apply)</p>
+          <div>
+            <input type="checkbox" value="Front-end Projects" class="checkbox">Front-end Projects
+          </div>
+          <div>
+            <input type="checkbox" value="Back-end Projects" class="checkbox">Back-end Projects
+          </div>
+          <div>
+            <input type="checkbox" value="Data Visualization" class="checkbox">Data Visualization
+          </div>
+          <div>
+            <input type="checkbox" value="Challenges" class="checkbox">Challenges
+          </div>
+          <div>
+            <input type="checkbox" value="Open Source Community" class="checkbox">Open Source Community
+          </div>
+          <div>
+            <input type="checkbox" value="Gitter help rooms" class="checkbox">Gitter help rooms
+          </div>
+          <div>
+            <input type="checkbox" value="Videos" class="checkbox">Videos
+          </div>
+          <div>
+            <input type="checkbox" value="City Meetups" class="checkbox">City Meetups
+          </div>
+          <div>
+            <input type="checkbox" value="Wiki" class="checkbox">Wiki
+          </div>
+          <div>
+            <input type="checkbox" value="Forum" class="checkbox">Forum
+          </div>
+          <div>
+            <input type="checkbox" value="Additional Courses" class="checkbox">Additional Courses
+          </div>
+          
+        </div>
+        <div class="formulary">
+          <textarea name="suggestions" class="textbox" cols="30" rows="10"></textarea>
+        </div>
+
+        <input type="submit" value="Submit" id="submit">
+        </div>
+      </form>
+      
+  </body>
+</html>
