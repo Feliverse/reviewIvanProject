@@ -26,12 +26,13 @@ body{
 input{
     display: block;
 }
+
 .textbox{
     width: 90%;
     position: relative;
     align-items: center;
-    
 }
+
 .checkbox{
     display: inline;
 }
