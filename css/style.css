@@ -27,6 +27,11 @@ input{
     display: block;
 }
 
+.formulary label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+}
+
 .textbox{
     width: 90%;
     position: relative;
