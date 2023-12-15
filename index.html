@@ -20,18 +20,23 @@
     <script  src="js/index.js"></script>
 
     <!-- Title -->
+
     <div id="intro">
+
       <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
-    </div>
+    <p id="description">Thank you for taking the time to help us improve the platforms</p>
+    
+  </div>
 
     <div class="main">
       
       <form id="survey-form">
+
         <div class="formulary">
           <label id="name-label" >Name</label>
           <input type="text" placeholder="Enter your name" id="name" class="textbox" required>
         </div>
+       
         <div class="formulary">
           <label id="email-label">Email</label>
           <input id="email" class="textbox" type="email" required placeholder="Enter your email" pattern=".+@+"/>
@@ -40,7 +45,9 @@
           <label id="number-label" class="textbox">Age (optional)</label>
           <input type="number" id="number" class="textbox" placeholder="Age" min = "18" max = "100" required>
         </div>
-        <div>
+        
+        <div class="formulary">
+          <label id="number-status" class="textbox">Status</label>
           <select name="dropdown" id="dropdown" class="textbox">
             <option selected disabled value=""> Select current role</option>
             <option>Student</option>
